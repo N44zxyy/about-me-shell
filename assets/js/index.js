@@ -127,7 +127,7 @@ function cvCommand(){
   insertLine("\n<strong>$ --Education--</strong>\n",true);
   printContent(commands['education']);
   insertLine("\n<strong>$ --Project--</strong>\n",true);
-  printContent(commands['projects']);
+  printContent(commands['project']);
   insertLine("\n<strong>$ --certificate--</strong>\n",true);
   printContent(commands['certificate']);
   insertLine("\n<strong>$ --LinkedIn--</strong>\n",true);
