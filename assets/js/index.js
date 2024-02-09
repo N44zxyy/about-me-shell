@@ -91,6 +91,11 @@ function readCommand(event){
     return;
   }
 
+  if(command == "helmet"){
+    window.open('./assets/helmet-qr.pdf','_blank');
+    return;
+  }
+
   if(command == "cls"){
     clearCommand();
     return;
